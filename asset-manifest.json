@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/secretword/static/css/main.ed6f3fc4.css",
-    "main.js": "/secretword/static/js/main.c87edae3.js",
-    "static/js/453.c5c45798.chunk.js": "/secretword/static/js/453.c5c45798.chunk.js",
-    "index.html": "/secretword/index.html",
-    "main.ed6f3fc4.css.map": "/secretword/static/css/main.ed6f3fc4.css.map",
-    "main.c87edae3.js.map": "/secretword/static/js/main.c87edae3.js.map",
-    "453.c5c45798.chunk.js.map": "/secretword/static/js/453.c5c45798.chunk.js.map"
+    "main.css": "/SECRET_WORD/static/css/main.ed6f3fc4.css",
+    "main.js": "/SECRET_WORD/static/js/main.5d06a035.js",
+    "static/js/453.c5c45798.chunk.js": "/SECRET_WORD/static/js/453.c5c45798.chunk.js",
+    "index.html": "/SECRET_WORD/index.html",
+    "main.ed6f3fc4.css.map": "/SECRET_WORD/static/css/main.ed6f3fc4.css.map",
+    "main.5d06a035.js.map": "/SECRET_WORD/static/js/main.5d06a035.js.map",
+    "453.c5c45798.chunk.js.map": "/SECRET_WORD/static/js/453.c5c45798.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ed6f3fc4.css",
-    "static/js/main.c87edae3.js"
+    "static/js/main.5d06a035.js"
   ]
 }

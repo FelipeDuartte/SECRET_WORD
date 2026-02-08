@@ -1,8 +1,14 @@
-.start h1 {
-  font-size: 3.5em;
+.start h1{
+  font-size: clamp(2rem, 7vw, 3.5rem);
+  margin: 0 0 0.5rem;
 }
 
-.start p {
-  margin-bottom: 2em;
-  color: #ecfa00;
+.start p{
+  margin-bottom: 1.4rem;
+  color: var(--accent);
+  font-size: clamp(1rem, 3.5vw, 1.2rem);
+}
+
+@media (max-width:480px){
+  .start{padding:0 0.5rem}
 }

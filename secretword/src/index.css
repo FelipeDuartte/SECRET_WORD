@@ -1,38 +1,51 @@
-html,
-body {
-  height: 100vh;
-  width: 100vw;
-  margin: 0px;
-  padding: 0px;
+:root{
+  --bg-top: #0923af;
+  --bg-bottom: #000000;
+  --accent: #ecfa00;
+  --primary: #1646a0;
+  --text: #ffffff;
+  --card-bg: #ffffff;
+}
+
+*{box-sizing:border-box}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-  font-family: Helvetica;
-  margin: 0;
-  padding: 0;
-  background: rgb(9, 35, 175);
-  background: linear-gradient(
-    180deg,
-    rgba(9, 35, 175, 1) 0%,
-    rgba(0, 0, 0, 1) 100%
-  );
-  color: #fff;
+  font-family: Helvetica, Arial, sans-serif;
+  min-height: 100vh;
+  background: linear-gradient(180deg,var(--bg-top) 0%, var(--bg-bottom) 100%);
+  color: var(--text);
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
 }
 
 button {
-  background-color: #1646a0;
-  color: #fff;
-  padding: 0 45px;
-  border: 2px solid #fff;
-  border-radius: 25px;
-  height: 50px;
+  background-color: var(--primary);
+  color: var(--text);
+  padding: 0.6rem 2.4rem;
+  border: 2px solid var(--text);
+  border-radius: 999px;
+  height: auto;
   text-transform: uppercase;
-  font-weight: bold;
-  font-size: 1.2em;
+  font-weight: 700;
+  font-size: 1rem;
   cursor: pointer;
-  transition: 0.4s;
+  transition: transform 160ms ease, background 240ms ease;
 }
 
-button:hover {
-  background: #0923af;
+button:hover{transform:translateY(-3px)}
+
+img{max-width:100%;height:auto;display:block}
+
+/* Utility container for the app */
+.container{width:100%;max-width:1100px;padding:1rem}
+
+@media (max-width:480px){
+  button{padding:0.5rem 1.2rem;font-size:0.9rem}
 }

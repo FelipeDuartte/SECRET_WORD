@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/SECRET_WORD/static/css/main.ed6f3fc4.css",
+    "main.css": "/SECRET_WORD/static/css/main.1c62b64b.css",
     "main.js": "/SECRET_WORD/static/js/main.5d06a035.js",
     "static/js/453.c5c45798.chunk.js": "/SECRET_WORD/static/js/453.c5c45798.chunk.js",
     "index.html": "/SECRET_WORD/index.html",
-    "main.ed6f3fc4.css.map": "/SECRET_WORD/static/css/main.ed6f3fc4.css.map",
+    "main.1c62b64b.css.map": "/SECRET_WORD/static/css/main.1c62b64b.css.map",
     "main.5d06a035.js.map": "/SECRET_WORD/static/js/main.5d06a035.js.map",
     "453.c5c45798.chunk.js.map": "/SECRET_WORD/static/js/453.c5c45798.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ed6f3fc4.css",
+    "static/css/main.1c62b64b.css",
     "static/js/main.5d06a035.js"
   ]
 }
